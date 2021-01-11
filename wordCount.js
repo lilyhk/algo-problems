@@ -10,9 +10,10 @@ var countWords = function(cb) {
   })
 }
 
-countWords((err, data) => {
-  console.log(data)
-})
+console.log(countWords((err, data) => {
+  //console.log(data)
+  return data
+}))
 
 
 
