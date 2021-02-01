@@ -27,9 +27,34 @@ nums.length == 2n
 1 <= nums[i] <= 10^3
 */
 
-class Solution {
-  public:
-      vector<int> shuffle(vector<int>& nums, int n) {
-
+/**
+ * @param {number[]} nums
+ * @param {number} n
+ * @return {number[]}
+ */
+var shuffle = function(nums, n) {
+  //set a storage for result
+  let result = [];
+  let count = 0;
+  //loop through nums array n times to build result array
+  var loop = function(nums, start) {
+      for(let i = start; i < nums.length; i+=n) {
+          result.push(nums[i])
       }
-  };
+      count++
+      if (count < n) {
+          loop(nums, count);
+      }
+  }
+  //can recursively pass in to loop a new 'i'
+  loop(nums, 0);
+  //return result array
+  return result;
+};
+
+//console.log(shuffle([2,5,1,3,4,7], 3))
+//output: [ 2, 3, 5, 4, 1, 7 ]
+//console.log(shuffle([1,2,3,4,4,3,2,1], 4))
+//output: [ 1, 4, 2, 3, 3, 2, 4, 1 ]
+//console.log(shuffle([1,1,2,2], 2))
+//output: [ 1, 2, 1, 2 ]
