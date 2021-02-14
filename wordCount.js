@@ -13,7 +13,6 @@ var countWords = function(cb) {
 
 countWords((err, data) => {
   console.log(data)
-  //return data
 })
 
 
