@@ -6,7 +6,6 @@ var countWords = function(cb) {
       console.log("Error reading file", err)
       return
      }
-     //console.log("SUCCESS!", data)
      cb(0, data.split(' ').length)
   })
 }
