@@ -1,0 +1,27 @@
+
+Why are you interested in an apprenticeship at Google?
+
+I believe Google will create an envirnment that allow apprentices to both learn and contribute meaningful skills. Im interested in this apprenticeship because I want to work in an industry that excites me and at a place where my skills and my background can make a meaningful impact.
+
+What are you most excited about in the computer science space? Why?
+How have you learned about the tech space?
+
+I love that the space is interesting and challenging and evergrowing. Its impossible to know it all because the more you know, the more you know you dont know. Yes, I just quoted Aristotle. I know I sound so unoriginal but Ive lived by this quote since my first day of college over 10 years ago when I printed and taped this to the top of my monitor. Ive used it to encourage others to keep pushing onward in their own engineering journeys both during my time as a student at Hack Reactor and afterwards when i took on the responsibilities of sheparding others through the program.
+
+At Google, we believe that a diversity of perspectives, ideas, and cultures leads to the creation of better products and services. Tell us about your background and experiences (e.g. volunteer work/club participation/extracurricular activities) and how they make you unique.
+Tell us about your exposure to coding through technology or extracurricular activities.
+
+I have a non-traditional background towards software engineering. Before becoming an Engineer, I worked in retail, inventory planning. I enjoy being in the work. I enjoy being in the weeds but Ive progressed as far as I wanted to go in corporate retail. So i started thinking about what could be next. Where can I exercise my passion for building and also marry it with my experience with deep analysis from my formal education all the way to having to build out complex models when thinking about inventory planning. Naturally that landed me in software engineering where I can go and build software, have this blank canvas and use both my creative muscles and my technical muscles to allow me to create something thats tangible. I started self-studying the basics of engineering over a year ago. The more I learned, the more I wanted to learn. I decided to excelerate my learning by joining Hack Reactors immersive program for software engineering. The experience has been intense and life changing. I believe in the program so much, I signed on to become a resident and help guide the next cohort of students through. Not by teaching them how to code, but by teaching them how to learn. Ive been in countless zoom sessions that started out with /have you read that error your getting? followed by /what do you think it means? and finally /lets google it. I never imagined the experience to be as rewarding as it was.
+
+
+-SEIR helping current students
+-Wallbreakers
+-Teaming with alumnis
+
+Please rank your coding language in preference order (C++, C#, Java, JavaScript, Python).
+
+JavaScript, Python, Java, C++, C#
+
+Please rank your location preferences in order: Atlanta, GA; New York, NY.
+
+New York, NY; Atlanta, GA
