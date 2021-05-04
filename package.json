@@ -1,0 +1,23 @@
+{
+  "name": "algo-problems",
+  "version": "1.0.0",
+  "description": "practice problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilyhk/algo-problems.git"
+  },
+  "author": "Lily Kong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilyhk/algo-problems/issues"
+  },
+  "homepage": "https://github.com/lilyhk/algo-problems#readme",
+  "dependencies": {
+    "node": "^16.0.0",
+    "path": "^0.12.7"
+  }
+}
