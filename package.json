@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/lilyhk/algo-problems#readme",
   "dependencies": {
-    "node": "^16.0.0",
+    "node": "^16.1.0",
     "path": "^0.12.7"
   }
 }

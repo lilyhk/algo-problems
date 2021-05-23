@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 var countWords = function(cb, fileName) {
-
+  let name = fileName || 'test.txt';
   fs.readFile('/Users/lilykong/Documents/Algo-Problems/test.txt', 'utf8', (err, data) => {
     if (err) {
       console.log("Error reading file", err)

@@ -1,80 +1,30 @@
+function ArrayChallenge(arr) {
 
-var combos = function(words, keypads) {
-  /*check how many words the keypad can make from the word array
-start with the first keypad in the keypad array
-will need to go through entire word array
-start a counter
-check if first leter in word is in the keypad
-  if yes, move through to the next letter
-    if all letters are in the keypad, check if first letter of keypad is in word
-      if yes, add to the counter
-      if no, move onto next word
-  if no, move onto next word
-push the counter into the result array
-repeat for each key pad*/
-  let result = [];
+  // code goes here
+  //input: array of nums
+  //output: boolean
+  //objective: determine if any two num in array can be multiplied to be greater than sum of all nums * 2
 
-  var checkOne = function(keypad) {
-    let count = 0;
+  //start by calculating target (sum array * 2)
+  //check the first element of array against multipling it with all other elements
+    //if any is greater, return true
 
-    for (var i = 0; i < words.length; i++) {
-      for(var j = 0; j < words[i].length; j++) {
-        if (!keypad.includes(words[i][j])) {
-          break
-        }
+  let sum2 = 0//sum of array*2
+  for (var i = 0; 0 < arr.length; i++) {
+    sum2 += (arr[i]*2);
+  }
 
-        if (j === words[i].length-1) {
-          if (words[i].includes(keypad[0])) {
-            count++
-          }
-        }
+  console.log('test')
+
+  for (var i = 0 ; i < arr.length - 1; i++) {
+    for (var j= i+1; j< arr.length; j++) {
+      if (i*j > sum2) {
+        return true
       }
     }
-
-    return count;
   }
-
-  for (var i = 0; i < keypads.length; i++) {
-    var numberCombo = checkOne(keypads[i])
-    result.push(numberCombo)
-  }
-
-  return result;
-
+  return false;
 }
-
-//combos(['one','two', 'three'])
-
-//test
-
-//combos(['one','two', 'three'])
-var one = ['APPLE', 'PEACHES', 'PEARS', 'SEARCH', 'PEACHES', 'PEARS', 'SEARCH', 'PEACHES', 'PEARS', 'SEARCH', 'PLEASE', 'BANANAS', 'RASPBERRIES']
-var two = ['PXLRENS', 'ASLECPH', 'SERACHP', 'CKEHRAS', 'ASLECPH']
-
-//console.log(combos(one,two))
-
-//build test to check if function can handle word array length of 100
-var buildStr = function() {
-  let letters = ['A', 'B','C', 'D', 'E','F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-  let length = Math.floor(Math.random() * (10 - 5) + 5);
-  let string = '';
-  for (var i = 0; i < length; i++) {
-    let letter = letters[Math.floor(Math.random() * 25)];
-    string += letter;
-  }
-  return string
-}
-
-var buildDictionary = function(n) {
-  var array = []
-  for (var i = 0; i < n; i++) {
-    let randomStr = buildStr()
-    array.push(randomStr)
-  }
-  return array;
-}
-
-var test260 = (buildDictionary(260000))
-
-//combos(test260,two)
-console.log(combos(one,two))
+let test1 = [1,2,3,4,5]
+console.log(ArrayChallenge(test1))
+console.log('hi')
